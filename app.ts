@@ -2,11 +2,13 @@ import express from 'express';
 import numberRoutes from './routes/number.route';
 import { errorHandler } from './middlewares/error.middleware';
 import bodyParser from 'body-parser';
+import cors from 'cors';
 
 const app = express();
 
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors());
 
 app.use('/api', numberRoutes);
 
