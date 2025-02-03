@@ -18,7 +18,6 @@ it also uses the [Numbers API](http://numbersapi.com/ "numbers api")
 
    ```
    git clone https://github.com/josephanya/number-classification-api.git
-
    ```
 2. Navigate to the project directory:
 
