@@ -1,6 +1,6 @@
 # Number Classification API
 
-This is a simple public API written in Typescript that analyzes a number and returns some interesting facets about it in JSON format.
+This is a simple public API written in Typescript that analyzes a number and returns some interesting facts about it in JSON format.
 
 It uses the following dependencies: [Typescript](https://www.npmjs.com/package/typescript "typescript"), [Express](https://www.npmjs.com/package/express "express"), [Nodemon](https://www.npmjs.com/package/nodemon "nodemon"), [ts-node](https://www.npmjs.com/package/ts-node "ts-node")
 
@@ -35,14 +35,13 @@ it also uses the [Numbers API](http://numbersapi.com/ "numbers api")
    ```
    npm run local
    ```
-4. Access the API at port 8080 by either using:
-   Curl:
+4. Access the API at port 8080 by either using curl:
 
    ```
-   curl http://localhost:3000/api/classify-number?number=191
+   curl http://localhost:3000/api/classify-number
    ```
 
-   Or opening ``http://localhost:3000/api/classify-number?number=191`` on your browser
+   Or opening ``http://localhost:3000/api/classify-number`` on your browser
 
 ### Deployment
 
