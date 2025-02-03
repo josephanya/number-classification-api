@@ -1,0 +1,26 @@
+{
+  "name": "number-classification-api",
+  "version": "1.0.0",
+  "description": "number classification api",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node dist/app.ts",
+    "local": "nodemon app.ts"
+  },
+  "keywords": [
+    "hng"
+  ],
+  "author": "Joseph Anya",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.3"
+  }
+}
