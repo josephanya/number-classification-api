@@ -51,7 +51,7 @@ The API is deployed and self-hosted. You can access it at: [https://bc26-102-89-
 ```
 GET /api/classify-number?number=191
 ```
-Add any number of your choice as a query parameter. In ths example, I am using 191
+Add any number of your choice as a query parameter. In ths example, I am using ``191``
 
 ### Response Format
 
